@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Loop the Loop!</string>
+    <string name="how_to_play">How to Play</string>
+    <string name="action_settings">Settings</string>
+    <string name="test">Test</string>
+    <string name="loop">Loop the Loop!</string>
+    <string name="instructions">\n\nClicking on a edge darkens a line.
+        						\nClicking on them again undarkens it.
+        						\nA double click erases the line.
+        						\n\nThe number inside the squares indicates\n 
+        						the number of lines that should be drawn\n
+        						around the four lines that surround it.\n
+        						A square with no number can have any number\n 
+        						of lines around it.\n\n
+								There is only one solution.\n\n
+								There can only be a single loop with no loose\n 
+								ends.</string>
+    <string name="button_start_game">Start</string>
+    <string name="button_reset">New Puzzle</string>
+    <string name="button_verify">Verify</string>
+    <string name="title_activity_display_message">DisplayMessageActivity</string>
+    <string name="title_activity_game">GameActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_winner">WinnerActivity</string>
+
+</resources>
