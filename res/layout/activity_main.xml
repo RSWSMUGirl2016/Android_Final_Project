@@ -28,7 +28,7 @@
         android:textSize="15dp"
         android:layout_marginTop="50dp"
         android:textColor="#7D796B"
-        android:text="\n\nClicking on a edge darkens a line. Clicking on them again undarkens it. A double click erases the line.
+        android:text="\n\nClicking on an turns a line orange. Clicking on them again returns them to their original grey coloring.
                           \n\nThe number inside the squares indicates the number of lines that should be drawn around the four lines that surround it.
         				  \nA square with no number can have any number of lines around it.
         				  \n\nThere is only one solution.
