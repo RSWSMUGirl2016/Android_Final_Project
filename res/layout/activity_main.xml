@@ -8,7 +8,7 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.looppuzzle.MainActivity" 
     android:orientation="vertical"
-    android:background="#005BAB">
+    android:background="#90CDC2">
     
     <TextView
         android:layout_width="fill_parent"
@@ -23,25 +23,24 @@
         android:id="@+id/instr_message"
         android:layout_height="wrap_content"
         android:layout_width="fill_parent"
+        android:gravity="center_vertical"
+        android:layout_gravity="center_vertical"
+        android:textSize="15dp"
+        android:layout_marginTop="50dp"
         android:textColor="#7D796B"
-        android:text="\n\nClicking on a edge darkens a line.
-        						\nClicking on them again undarkens it.
-        						\nA double click erases the line.
-        						\n\nThe number inside the squares indicates
-        						\nthe number of lines that should be drawn
-        						\naround the four lines that surround it.
-        						\nA square with no number can have any number
-        						\nof lines around it.
-        						\n\nThere is only one solution.
-        						\n\nThere can only be a single loop with no loose 
-								\nends"/>
+        android:text="\n\nClicking on a edge darkens a line. Clicking on them again undarkens it. A double click erases the line.
+                          \n\nThe number inside the squares indicates the number of lines that should be drawn around the four lines that surround it.
+        				  \nA square with no number can have any number of lines around it.
+        				  \n\nThere is only one solution.
+        				  \n\nThere can only be a single loop with no loose ends."/>
    
    <Button 
+        android:background="#7D796B"
         android:id="@+id/button_start_game"
-        android:layout_width="wrap_content"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="@string/button_start_game"
-        android:textColor="#EA6F4B"
+        android:text="Let's Play!"
+        android:textColor="#FFF5C6"
         android:layout_gravity="center"
         android:layout_alignParentBottom="true"/>
 

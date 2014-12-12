@@ -8,22 +8,13 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.looppuzzle.GameActivity" 
     android:orientation="vertical"
-    android:background="#005BAB">
-
-    <TextView
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/loop"
-        android:textColor="#FFFFFF"
-        android:textSize="20dp"
-        android:gravity="center"
-        android:layout_marginBottom="20dp"/>
+    android:background="#90CDC2">
 
     <GridView
         android:id="@+id/gridView1"
         android:layout_width="fill_parent"
-        android:layout_height="350dp"
-        android:layout_marginTop="10dip"
+        android:layout_height="430dp"
+        android:layout_marginTop="5dp"
         android:columnWidth="40dp"
         android:gravity="center"
         android:numColumns="11"
@@ -32,28 +23,31 @@
     </GridView>
 	
    	<LinearLayout 
-	    android:layout_width="wrap_content"
+	    android:layout_width="fill_parent"
 	    android:layout_height="wrap_content"
-	    android:padding="5dp" 
 	    android:layout_centerHorizontal="true"
-	    android:layout_gravity="center">
+	    android:layout_gravity="center"
+	    android:orientation="horizontal"
+	    android:layout_alignParentBottom="true">
 	    
    		<Button 
+   		    android:background="#7D796B"
 	        android:id="@+id/button_reset"
-	        android:layout_width="wrap_content"
+	        android:layout_width="160dp"
 	        android:layout_height="wrap_content"
 	        android:text="@string/button_reset"
-	        android:textColor="#FFFFFF"
+	        android:textColor="#FFF5C6"
+	        android:layout_marginRight="5dp"
 	        android:layout_gravity="center"/>
    		
    		<Button 
+   		    android:background="#7D796B"
 	        android:id="@+id/button_verify"
-	        android:layout_width="wrap_content"
+	        android:layout_width="160dp"
 	        android:layout_height="wrap_content"
 	        android:text="@string/button_verify"
-	        android:textColor="#FFFFFF"
-	        android:layout_gravity="center"
-	        android:layout_alignParentBottom="true"/>
+	        android:textColor="#FFF5C6"
+	        android:layout_gravity="center"/>
 	    
     </LinearLayout>
 

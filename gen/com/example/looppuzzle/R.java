@@ -29,13 +29,14 @@ public final class R {
         public static final int vert_rect=0x7f020004;
     }
     public static final class id {
-        public static final int action_settings=0x7f080007;
+        public static final int action_settings=0x7f080008;
+        public static final int button_play_again=0x7f080005;
         public static final int button_reset=0x7f080001;
         public static final int button_start_game=0x7f080004;
         public static final int button_verify=0x7f080002;
         public static final int gridView1=0x7f080000;
-        public static final int grid_item_image=0x7f080005;
-        public static final int grid_item_label=0x7f080006;
+        public static final int grid_item_image=0x7f080006;
+        public static final int grid_item_label=0x7f080007;
         public static final int instr_message=0x7f080003;
     }
     public static final class layout {
