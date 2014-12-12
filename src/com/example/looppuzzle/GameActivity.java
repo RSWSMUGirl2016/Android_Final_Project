@@ -61,14 +61,14 @@ public class GameActivity extends Activity {
 	static final String[] THREE_NUMBERS = new String[] { "1,16", "2,18",
 			"1,34", "2,58", "2,62", "3,82", "2,86", "2,102", "0,104" };
 	static final String[] FOUR_NUMBERS = new String[] { "3,12", "3,38", "1,40",
-			"2,42", "0,56", "2,60", "2,78", "2,82", "0,84", "3,86", "3,108" };
+			"2,42", "0,56", "2,60", "2,78", "2,82", "0,84", "3,86", "3,106" };
 	static final String[] FIVE_NUMBERS = new String[] { "1,14", "2,16", "2,18",
 			"3,38", "0,40", "2,42", "2,64", "1,78", "2,82", "3,100", "3,108" };
 
 	private ArrayList<Integer> ONE_SOLUTIONS = new ArrayList<Integer>(
-			Arrays.asList(1, 7, 9, 11, 13, 17, 21, 27, 33, 35, 37, 43, 49, 53,
-					55, 57, 61, 63, 69, 71, 77, 85, 91, 93, 97, 99, 101, 105,
-					109, 111, 117, 119));
+			Arrays.asList(1, 7, 9, 11, 13, 17, 21, 27, 31, 33, 35, 37, 41, 51,
+					55, 57, 59, 61, 69, 73, 77, 85, 93, 97, 99, 103, 105,
+					109, 111, 113, 117, 119));
 	private ArrayList<Integer> TWO_SOLUTIONS = new ArrayList<Integer>(
 			Arrays.asList(1, 5, 7, 9, 11, 13, 15, 21, 27, 29, 33, 35, 41, 43,
 					51, 55, 57, 61, 65, 71, 75, 77, 79, 81, 85, 91, 95, 99,
@@ -193,12 +193,12 @@ public class GameActivity extends Activity {
 					Intent intent = new Intent(GameActivity.this, WinnerActivity.class);
 					startActivity(intent);
 				} else {
-					Toast.makeText(getApplicationContext(),
-							"Not Quite! Keep Trying!", Toast.LENGTH_SHORT)
-							.show();
 					//Toast.makeText(getApplicationContext(),
-							//userSolution.toString(), Toast.LENGTH_SHORT)
+							//"Not Quite! Keep Trying!", Toast.LENGTH_SHORT)
 							//.show();
+					Toast.makeText(getApplicationContext(),
+							userSolution.toString(), Toast.LENGTH_SHORT)
+							.show();
 				}
 			}		
         	
