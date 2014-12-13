@@ -193,12 +193,12 @@ public class GameActivity extends Activity {
 					Intent intent = new Intent(GameActivity.this, WinnerActivity.class);
 					startActivity(intent);
 				} else {
-					//Toast.makeText(getApplicationContext(),
-							//"Not Quite! Keep Trying!", Toast.LENGTH_SHORT)
-							//.show();
 					Toast.makeText(getApplicationContext(),
-							userSolution.toString(), Toast.LENGTH_SHORT)
+							"Not Quite! Keep Trying!", Toast.LENGTH_SHORT)
 							.show();
+					//Toast.makeText(getApplicationContext(),
+							//userSolution.toString(), Toast.LENGTH_SHORT)
+							//.show();
 				}
 			}		
         	
